@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ramka"
+        android:id="@+id/x"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Победили крестики"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/pobeda"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play_again"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/pobeda"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ramka"
+            android:gravity="center"
+            android:text="Играть снова"
+            android:textColor="#6589F3"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</RelativeLayout>

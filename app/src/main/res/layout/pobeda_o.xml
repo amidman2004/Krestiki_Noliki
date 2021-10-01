@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ramka"
+    >
+
+    <RelativeLayout
+        android:id="@+id/o"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ramka"
+
+        >
+
+        <TextView
+            android:id="@+id/pobeda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Победили нолики"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play_again1"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/pobeda"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ramka"
+            android:gravity="center"
+            android:text="Играть снова"
+            android:textColor="#6589F3"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</RelativeLayout>
